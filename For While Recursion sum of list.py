@@ -1,8 +1,6 @@
 # Write three functions that compute the sum of the numbers in a list:
 # using a for-loop, a while-loop and recursion.
 
-a = [5, 4, 3, 2, 1]
-
 # For loop
 
 def forSum(a):
