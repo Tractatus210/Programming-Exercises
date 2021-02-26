@@ -1,0 +1,9 @@
+# Write a function that rotates a list by k elements.
+# For example [1,2,3,4,5,6] rotated by two becomes [3,4,5,6,1,2].
+# Try solving this without creating a copy of the list.
+# How many swap or move operations do you need?
+
+#Define function with arguments for list and number of elements to rotate by.
+def listRot(a, k):
+    # Splits list into elements after k, and elements up to k, and adds them together.
+    a = a[k:] + a[:k]
